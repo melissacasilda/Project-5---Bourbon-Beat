@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bourbon Beat</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/animate.css">
+
+</head>
+	<header id="top">
+
+		<div class="head-container" >
+			<div class="h1-container">
+				<h1>BOURBON</h1>
+				<div class = "h1-beat">
+				<h1><span id="italic">BEAT</span></h1><img src="images/music.svg" class="music-note animated infinite pulse">
+				</div>
+			</div>
+
+			<img src="images/header_img.svg" alt="Bourbon SVG header image" class="header-img animated bounceInRight">
+		</div>
+		
+		<a id="get-started"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
+
+	</header>
+	<main class = "wrapper">
+		<form action="">
+			<section class = "question1">
+				<h2>Pick Your Flavour</h2>
+
+				<div class="flex-container">
+					<label class="bourbon-label">
+						<input type="radio" name="choose-note" id="bourbon-notes" value="spicy">
+						<span>
+						<img src="images/spicy.svg" alt="chili icon">
+						<p>SPICY</p>
+						</span>
+					</label>
+
+					<label class="bourbon-label">
+						<input type="radio" name="choose-note" id="bourbon-notes" value="sweet">
+						<span>
+						<img src="images/sweet.svg" alt="citrus fruit icon">
+						<p>SWEET</p>
+						</span>
+					</label>
+
+					<label class="bourbon-label">
+						<input type="radio" name="choose-note" id="bourbon-notes" value="smokey">
+						<span>
+						<img src="images/smokey.svg" alt="bonfire icon">
+						<p>SMOKEY</p>
+						</span>
+					</label>
+
+					<label class="bourbon-label">
+						<input type="radio" name="choose-note" id="bourbon-notes" value="no-pref">
+						<span>
+						<img src="images/drunk2.svg" alt="confused and drunk icon">
+						<p>DRUNK</p>
+						</span>
+					</label>
+				</div>
+			</section>
+
+
+			<section class = "question2">
+				<h2>Pick Your Beat</h2>
+				<div class="flex-container">
+					<label class="bourbon-label">
+						<input type="radio" name="choose-music" id="bourbon-style" value="smokey">
+						<span>
+						<img src="images/harmonica.svg" alt="harmonica icon">
+						<p>BLUES</p>
+						</span>
+					</label>
+
+					<label class="bourbon-label">
+						<input type="radio" name="choose-music" id="bourbon-style" value="sweet">
+						<span>
+						<img src="images/banjo.svg" alt="banjo icon">
+						<p>FOLK</p>
+						</span>
+					</label>
+
+					<label class="bourbon-label">
+						<input type="radio" name="choose-music" id="bourbon-style" value="spicy">
+						<span>
+						<img src="images/guitar.svg" alt="guitar icon">
+						<p>ROCK</p>
+						</span>
+					</label>
+
+					<label class="bourbon-label">
+						<input type="radio" name="choose-music" id="bourbon-style" value="no-pref">
+						<span>
+						<img src="images/drunk.svg" alt="confused and drunk icon">
+						<p>WASTED</p>
+						</span>
+					</label>
+				</div>
+			<input type="submit" name="submit" value="Hit Me" id="result-button">
+			</section>
+
+
+			<section id="results">
+
+				<div class="bourbon-results">
+					
+				</div>
+
+
+				<div class='beat-playlist'>
+					<a id = "play-button"><i class="fa fa-play-circle animated infinite pulse" aria-hidden="true"></i><p>Play Me!</p></a>
+					    <iframe src="" width="350" height="430" frameborder="0" allowtransparency="true"></iframe>
+					<div class="iframe-text">
+						<h4>Enjoy Irresponsibly!</h4>
+						<button id="shuffle">Shuffle</button>
+						<button id="restart">Restart</button>
+					</div>
+
+				</div>
+				
+			</section>
+		</form>
+	</main>
+
+	<footer>
+		<p>Designed and Developed by Melissa Gonsalves</p>
+		<p>Using the LCBO API & Spotify API</p>
+	</footer>
+
+
+<body>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="JS/jquery.smooth-scroll.js"></script>
+	<script src= "JS/bourbon.js"></script>
+</body>
+</html>

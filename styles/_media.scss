@@ -1,0 +1,134 @@
+@media(max-width: 1100px) {
+	#results {
+		flex-wrap: wrap;
+	}
+
+	.bourbon-results, .beat-playlist{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 850px) {
+
+	.bourbon-label {
+		margin: 20px;
+	}
+
+	.flex-container{
+		flex-wrap:wrap;
+	}
+
+}
+
+
+
+@media (max-width: 720px) {
+
+	.head-container{
+		flex-wrap: wrap;
+
+		img{
+			width: 25%;
+		}
+	}
+
+	.h1-container{
+		h1{
+			font-size: 7rem;
+		}
+	}
+	.h1-beat{
+		margin-bottom: 20px;
+	}
+
+	.bourbon-results{
+		img{
+			width: 80%;
+		}
+
+		h3{
+			width: 100%;
+			margin-bottom: 10px;
+		}
+	}
+
+}
+
+
+
+@media (max-width: 550px) {
+	.wrapper{
+		width: 90%;
+	}
+
+	input[type="radio"]+span{
+		width: 150px;
+		padding: 30px;
+	}
+
+	.question1, .question2{
+		height: auto;
+		margin-bottom: 100px;
+
+		h2{
+			margin-top: 0;
+			font-size: 2.5rem;
+		}
+	}
+
+}
+
+@media(max-width: 450px){
+
+	.wrapper{
+		width: 95%;
+	}
+
+	.h1-container{
+		h1{
+			font-size: 6rem;
+		}
+	}
+	.h1-beat {
+		span#italic{
+			font-size: 8rem;
+		}
+		img.music-note{
+			width: 25%;
+		}
+	}
+
+	i.fa.fa-arrow-circle-down {
+		font-size: 3.5rem;
+	}
+
+	.bourbon-label{
+		input[type="radio"] + span {
+			width: 110px;
+			padding: 14px;
+		}
+	}
+
+	.beat-playlist iframe {
+		width: 290px;
+		height: 380px;
+	}
+
+	button#shuffle, button#restart, input#result-button{
+		font-size: 2rem;
+	}
+
+	p{
+		font-size: 1.4rem;
+	}
+
+	h3{
+		font-size: 2.5rem;
+	}
+
+	h4{
+		font-size: 2rem;
+	}
+
+}
